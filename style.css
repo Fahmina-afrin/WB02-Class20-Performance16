@@ -1,0 +1,54 @@
+img{
+    height: 300px;
+    width: 300px;
+}
+
+div {
+    position:relative;
+    height:80px;
+    width: 100px;
+}
+.box1{
+    
+    background-color:blue;
+    left:20px;
+    top:20px;
+    z-index:3;
+}
+.box2{
+    
+background-color: purple;
+left:20px;
+top:20px;
+z-index:2;
+}
+.box3{
+    background-color:greenyellow;
+    left:20px;
+    top:20px;
+    z-index:1;
+}
+#overflow{
+    height:150px;
+    width:150px;
+    border:2px solid red;
+    overflow:auto;
+}
+div{
+    height:150px;
+}
+.class1{
+    float:right;
+    width:20%;
+    background-color:blue;
+}
+.class2{
+    float:left;
+    width:20%;
+    background-color: green;
+}
+.div1{
+     float:left;
+     padding:15px;
+     border:5px solid red;
+}
